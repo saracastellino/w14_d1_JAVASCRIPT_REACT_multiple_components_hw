@@ -10,13 +10,12 @@ class App extends Component {
       <>
        <div className="App">
           <div className="Body">
-          <img src="../public/logo.png" className="App-logo" alt="logo"/>
+          <h1 className="App-logo" alt="logo">IMDb</h1>
           <UpcomingFilms />
           <a
               className="App-link"
               href="https://www.imdb.com/calendar/?region=gb"
               target="_blank"
-              rel="noopener noreferrer"
             >
           View more upcoming releases!
             </a>
