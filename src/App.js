@@ -9,16 +9,18 @@ class App extends Component {
     return (
       <>
        <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
-      <UpcomingFilms />
-      <a
-          className="App-link"
-          href="https://www.imdb.com/calendar/?region=gb"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-       View more upcoming releases!
-        </a>
+          <div className="Body">
+          <img src="../public/logo.png" className="App-logo" alt="logo"/>
+          <UpcomingFilms />
+          <a
+              className="App-link"
+              href="https://www.imdb.com/calendar/?region=gb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+          View more upcoming releases!
+            </a>
+        </div>
       </div>
       </>
     );
