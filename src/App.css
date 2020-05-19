@@ -22,7 +22,10 @@ margin-bottom: 5em;
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 5s linear;
+    /* just once */
+    /* animation: App-logo-spin 5s running;  */
+    animation: App-logo-spin infinite 5s;  
+    animation-direction: alternate;
   }
 }
 

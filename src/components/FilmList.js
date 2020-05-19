@@ -16,7 +16,7 @@ class FilmList extends Component{
         const filmList = this.props.films.map(film => {
             return (
                 // <Film url={film.url} key={film.id} onclick={openUrl}>{film.name}</Film>
-                <Film><a href={film.url} key={film.id} target="_blank">{film.name}</a></Film>
+                <Film><a href={film.url} key={film.id} target="_blank" rel="noopener noreferrer">{film.name}</a></Film>
              
 
 
